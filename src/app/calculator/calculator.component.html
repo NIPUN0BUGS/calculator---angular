@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <form action="" [formGroup]="inputStr">
+                <input type="text" formControlName="text">
+            </form>
+        </div>
+
+        <div class="buttons">
+            <div class="operators row">
+                <div class="col-auto">
+                <button (click)="buttonClick($event.target)"class="btn btn-info">+</button>
+                <button (click)="buttonClick($event.target)"class="btn btn-info">-</button>
+                <button (click)="buttonClick($event.target)"class="btn btn-info">*</button>
+                <button (click)="buttonClick($event.target)"class="btn btn-info">/</button>
+                <button (click)="buttonClick($event.target)"class="btn btn-info">%</button>
+                </div>
+            </div>
+
+            <div class="operands row">
+                <div class="col-auto">
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">1</button>
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">2</button>
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">3</button>
+                    <button (click)="clearDisplay()" class="btn btn-danger">Clear</button>
+                    <button (click)="deleteLastCal()" class="btn btn-danger">DEL</button>
+                </div>
+            </div>
+
+            <div class="operands row">
+                <div class="col-auto">
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">4</button>
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">5</button>
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">6</button>
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">0</button>
+                    <button (click)="calculate()" class="btn btn-success">=</button>
+                </div>
+            </div>
+            <div class="operands row">
+                <div class="col-auto">
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">7</button>
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">8</button>
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">9</button>
+                    <button (click)="buttonClick($event.target)"class="btn btn-warning">.</button>
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
