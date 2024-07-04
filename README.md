@@ -1,5 +1,12 @@
-#Step one- npm install
-#Step two- npm s
+# Step one- npm install
+![image](https://github.com/NIPUN0BUGS/calculator---angular/assets/157451363/4598424a-da97-4b0d-97b3-8b244a27f3aa)
+
+# Step two- ng s
+![image](https://github.com/NIPUN0BUGS/calculator---angular/assets/157451363/5613eddf-1d08-4cc6-bf58-f55d3405421a)
+
+#Step three( ➜ http://localhost:4200/)
+![image](https://github.com/NIPUN0BUGS/calculator---angular/assets/157451363/f49576cf-ed46-492f-a166-e06bf1fb8f2e)
+
 
 # Calculator
 
