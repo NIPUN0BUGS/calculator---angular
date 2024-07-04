@@ -1,4 +1,7 @@
-# Cal
+#Step one- npm install
+#Step two- npm s
+
+# Calculator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
